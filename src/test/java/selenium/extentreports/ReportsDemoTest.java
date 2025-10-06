@@ -2,13 +2,11 @@ package selenium.extentreports;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import selenium.factory.ChromeDriverGetter;
 
-@Slf4j
 public class ReportsDemoTest {
 
     private WebDriver driver;
